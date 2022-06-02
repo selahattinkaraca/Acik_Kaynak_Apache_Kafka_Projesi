@@ -5,4 +5,5 @@ cd Acik_Kaynak_Apache_Kafka_Projesi
 
 docker-compose up --build
 
+# Curl Komutu
 curl -X POST  -d "[{\"id\":\"Selahattin\"}]" -H "Content-Type: application/json" localhost:3000/producer
